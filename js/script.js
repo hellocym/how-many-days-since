@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             break;
         default:
             date.innerHTML = daysUntil
-            title.innerHTML = `圣娅你什么时候实装啊😭`
+            // title.innerHTML = `圣娅你什么时候实装啊😭`
             break;
     }
 
