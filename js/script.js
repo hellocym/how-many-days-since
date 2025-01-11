@@ -21,16 +21,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     switch (daysUntil) {
         case 1:
-            h1.innerHTML = `Halloween is <span id="date">${daysUntil}</span> day away!`
-            title.innerHTML = `${daysUntil} Day Until Halloween!`
+            // h1.innerHTML = `Halloween is <span id="date">${daysUntil}</span> day away!`
+            // title.innerHTML = `${daysUntil} Day Until Halloween!`
             break;
         case 0:
-            h1.innerHTML = `<span id="date">Today is Halloween!</span> Eat, drink and be scary!`
-            title.innerHTML = "Ahhhh! Today is Halloween!"
+            // h1.innerHTML = `<span id="date">Today is Halloween!</span> Eat, drink and be scary!`
+            // title.innerHTML = "Ahhhh! Today is Halloween!"
             break;
         default:
             date.innerHTML = daysUntil
-            title.innerHTML = `${daysUntil} Days Until Halloween!`
+            // title.innerHTML = `${daysUntil} Days Until Halloween!`
             break;
     }
 
